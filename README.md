@@ -18,3 +18,6 @@ const text = 'Dette er en lang tekst. Den har noen, men ikke så mange, kjempeva
 
 console.log(lix(text)) // => 18.79
 ```
+
+## License
+[MIT](LICENSE)
