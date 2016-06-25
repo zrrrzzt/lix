@@ -19,5 +19,7 @@ const text = 'Dette er en lang tekst. Den har noen, men ikke så mange, kjempeva
 console.log(lix(text)) // => 18.79
 ```
 
+It will return 0 for no input and no periods.
+
 ## License
 [MIT](LICENSE)

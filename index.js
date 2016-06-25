@@ -2,7 +2,7 @@
 
 module.exports = function calculateLix (input) {
   if (!input) {
-    throw new Error('Missing required input')
+    return 0
   }
   const text = input.toString()
   const numberOfWords = (text.match(/\S+/g) || []).length
@@ -12,5 +12,9 @@ module.exports = function calculateLix (input) {
   }).length
   const lix = numberOfWords / numberOfPeriods + (numberOfLongWords * 100) / numberOfWords
 
-  return parseFloat(lix.toFixed(2))
+  if (lix !== Infinity) {
+    return parseFloat(lix.toFixed(2))
+  } else {
+    return 0
+  }
 }
