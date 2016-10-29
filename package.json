@@ -1,6 +1,6 @@
 {
   "name": "lix",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "LIX calculator",
   "license": "MIT",
   "author": {
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/zrrrzzt/lix",
   "main": "index.js",
   "engines": {
-    "node": ">=4.5.0"
+    "node": ">=4.6.1"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
