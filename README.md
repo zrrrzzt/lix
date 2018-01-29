@@ -2,6 +2,17 @@
 [![Coverage Status](https://coveralls.io/repos/zrrrzzt/lix/badge.svg?branch=master&service=github)](https://coveralls.io/github/zrrrzzt/lix?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+# Moved!
+This repo has moved!
+
+Further development will be done at [https://github.com/zrrrzzt/lix-index](https://github.com/zrrrzzt/lix-index)
+
+New command to install
+
+```sh
+$ npm i lix-index
+```
+
 # lix
 Measure the readability of your text using [LIX-index](https://en.wikipedia.org/wiki/LIX)
 
